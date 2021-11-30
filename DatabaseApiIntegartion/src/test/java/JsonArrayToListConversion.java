@@ -20,7 +20,6 @@ public class JsonArrayToListConversion {
 		List<Map<String,Object>> allUsers= RestAssured.get("https://run.mocky.io/v3/dce17f3c-2169-45e0-b3d4-62e47e1bb25a")
 				.as(new TypeRef<List<Map<String,Object>>>() {});
 
-
 		List<PojoClass> userList= new ArrayList<PojoClass>();
 
 		for(Map<String, Object> alluser: allUsers) {
