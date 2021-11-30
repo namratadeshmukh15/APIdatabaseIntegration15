@@ -31,6 +31,6 @@ public class JsonArrayToListConversion {
 			userList.add(record);
 		}
 		return userList;
-
 	}
 }
+
